@@ -25,6 +25,7 @@ export class AuthGuard {
     }
 
     this.userService.isLoggedIn();
+
     return true;
   }
 }

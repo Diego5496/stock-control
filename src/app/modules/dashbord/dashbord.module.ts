@@ -15,6 +15,7 @@ import { ToastModule } from 'primeng/toast';
 import { CookieService } from 'ngx-cookie-service';
 import { MessageService } from 'primeng/api';
 import { ChartModule } from 'primeng/chart';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 
@@ -33,7 +34,9 @@ import { ChartModule } from 'primeng/chart';
     ToolbarModule,
     CardModule,
     ToastModule,
-    ChartModule
+    ChartModule,
+    //Shared
+    SharedModule
   ],
   providers:[CookieService,MessageService]
 })
